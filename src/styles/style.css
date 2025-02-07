@@ -29,49 +29,87 @@ html, body {
     align-items: center;
     justify-content: center;
     /* border: solid red 2px; */
+    font-size: 22px;
+    /* border: solid violet 2px; */
     
     
+}
+
+a{
+    color: orange;
 }
 ul{
     display: flex;
     list-style: none;
     justify-content: space-around;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* border: solid blue 2px; */
+   
     width: 50vw;
-    /* flex-direction: row; */
+
+}
+
+.cardInicio{
+    font-family: "Gemunu Libre", serif;
 }
 
 header{
-    /* border: solid black 2px; */
+
     display: flex;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
     background-color: rgba(0, 0, 255, 0.911);
+    height: 10vh;
+    font-family: "Gemunu Libre", serif;
 }
 
 
 
 .logo{
-    border: solid orange 2px;
-    width: 20vw;
-    height: 6vh;
-    background-color: orange;
+
+    border-radius: 5px;
+    width: 19vw;
+    height: 8vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: "Gemunu Libre", serif;
+    color: rgba(255, 217, 0, 0.842);
+    /* border: solid 2px white; */
 }
 
 .contacts{
-    border: solid pink 2px;
-    background-color: pink;
-    width: 20vw;
-    height: 6vh;
+    width: 8vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.contacts img {
+    height: 40px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+  }
+  
+.contacts img:hover {
+    transform: translateY(-10px);
+    filter: brightness(1.2);
+  }
+
+
+.logoinsta{
+    height: 45px;
+}
+.logowpp{
+    height: 45px;
 }
 
 .IMGinicio{
     display: flex;
-    /* border: solid purple 2px; */
-    margin-top: 50px;
+    margin-top: 0px;
     height: 80vh;
     width: 100vw;
     align-items: center;
@@ -82,10 +120,10 @@ header{
 
 
 .textInicio{
-    /* border: solid purple 2px; */
     width: 30%;
     align-items: center;
     justify-content: center;
+    font-family: "Gemunu Libre", serif;
 }
 
 .image1{
@@ -123,21 +161,13 @@ header{
     }
 }
 
-
-/* .cardInicio{
-    border: solid black 2px;
-    
-} */
-
 .text{
-    border: solid yellow 2px;
-    height: 30vh;
+    height: 40vh;
+    width: 60vw;
     position: absolute;
-    top: 340px;
-    left: 142px;
+    top: 250px;
+    left: 215px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     justify-content: space-between;
     
@@ -150,15 +180,150 @@ header{
 }
 
 .btnfalecomigo{
-    width: 125px;
-    height: 45px;
-    font-size: 15px;
+     width: 125px;
+    height: 45px; 
+    font-size: 20px;
+    background-color: rgba(0, 0, 255, 0.568);
+    color:rgba(255, 217, 0, 0.842);
+    border: none;
+    cursor: pointer;
+    font-family: "Gemunu Libre", serif; 
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  
+  
+
+  
+  font-weight: bold;
+ 
+  background: linear-gradient(to right,blue 50%,  rgba(255, 217, 0, 0.918) 50%);
+  background-size: 200% 100%;
+  background-position: left;
+  border: none;
+  cursor: pointer;
+  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
+.btnfalecomigo:hover {
+    background-position: right;
+    color: white; /* Mantém o texto visível */
+  }
+
 .titlleinicio{
-    font-size: 25px;
+    font-size: 35px;
+    color: rgba(255, 217, 0, 0.842) ;
+    /* text-shadow: 50px 20px 60px 80px rgba(0, 0, 0, 0.5); */
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
 }
 
 .titlleinicio2{
-    font-size: 45px;
+    font-size: 70px;
+    color: blue;
+    /* text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.5); */
 }
+
+.titlleinicio3{
+    color:rgb(92, 90, 90) ;
+    font-size: 35px;
+    /* text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5); */
+}
+
+ul a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold; 
+  }
+  
+  ul a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 0;
+    height: 4px;
+    /* background-color: black; */
+    transition: width 0.3s ease-in-out;
+    background-color: rgba(255, 217, 0, 0.842);
+  }
+
+  ul a:hover {
+    color:  rgba(255, 217, 0, 0.842);; /* Cor do texto ao passar o mouse */
+  }
+  
+  ul a:hover::after {
+    width: 100%;
+    color: rgba(255, 217, 0, 0.842);
+  }
+
+  
+  a{
+    cursor: pointer;
+  }
+
+  .logo1{
+    width: 35px;
+    height: 40px;
+    /* border: solid white 1px; */
+  }
+
+  .logo2{
+    /* border: solid orange 1px; */
+    height: 40px;
+    border: solid white 2px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid white 1px; */
+    background-color: blue;
+    border-radius: 5px;
+  }
+  .logo3{
+    /* border: solid white 1px; */
+    width: 80px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .logotxt{
+    /* border: solid white 1px; */
+    height: 49px;
+    /* border: solid white 2px; */
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    border-radius: 5px;
+
+  }
+
+  .logotxt2{
+    /* border: solid white 1px; */
+    height: 30px;
+    width: 168px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+
+  .start {
+    color: rgba(255, 217, 0, 0.842);
+  }
+  
+  .end {
+    color: white; /* Cor da segunda parte */
+  }
+  
+  .anomear{
+    height: 1000px;
+  }
