@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+
+.container{
+    /* border: solid red 2px; */
+    width: 100vw;
+    min-height: 100vh; /* Permite crescimento */
+
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.menu{
+    /* border: solid red 2px; */
+    width: 50vw;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid red 2px; */
+    
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* border: solid blue 2px; */
+    width: 50vw;
+    /* flex-direction: row; */
+}
+
+header{
+    /* border: solid black 2px; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.911);
+}
+
+
+
+.logo{
+    border: solid orange 2px;
+    width: 20vw;
+    height: 6vh;
+    background-color: orange;
+}
+
+.contacts{
+    border: solid pink 2px;
+    background-color: pink;
+    width: 20vw;
+    height: 6vh;
+}
+
+.IMGinicio{
+    display: flex;
+    /* border: solid purple 2px; */
+    margin-top: 50px;
+    height: 80vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.4; /* 0 é totalmente transparente, 1 é totalmente opaco */
+    overflow: hidden;
+}
+
+
+.textInicio{
+    /* border: solid purple 2px; */
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.image1{
+    width: 90%;
+}
+
+.titulo-com-cursor {
+    display: inline-block;  /* Para que o título ocupe apenas o espaço necessário */
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.cursor {
+    content: '';
+    display: inline-block;
+    width: 2px;   /* Largura do cursor */
+    height: 30px;  /* Tamanho igual ao do texto */
+    background-color: black; /* Cor do cursor */
+    animation: piscar-cursor 0.8s steps(1) infinite;  /* Animação de piscada */
+    position: absolute;
+    margin-left: 2px;
+   
+}
+
+
+
+/* Animação para o cursor piscar */
+@keyframes piscar-cursor {
+    50% {
+        opacity: 0;  /* Fica invisível no meio da animação */
+    }
+    100% {
+        opacity: 1;  /* Fica visível no final da animação */
+    }
+}
+
+
+/* .cardInicio{
+    border: solid black 2px;
+    
+} */
+
+.text{
+    border: solid yellow 2px;
+    height: 30vh;
+    position: absolute;
+    top: 340px;
+    left: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.img1{
+    width: 100vw;
+    height: 90vh;
+}
+
+.btnfalecomigo{
+    width: 125px;
+    height: 45px;
+    font-size: 15px;
+}
+
+.titlleinicio{
+    font-size: 25px;
+}
+
+.titlleinicio2{
+    font-size: 45px;
+}
