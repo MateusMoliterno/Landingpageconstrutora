@@ -82,7 +82,125 @@
 
 
 
-    <div class="anomear"></div>
+    <div class="cardQuemsomos">
+
+        <div class="subcardquemnosomos">
+
+            <div class="imgsobrenos">
+
+                <img class="imgcardqmsomos" src="./src/img/6af7ced476844d14c56b2c7b579eca6d.jpg" alt="">
+
+            </div>
+
+            <div class="sobreNos">
+                <h3 class="titlecardqmsomos">Quem somos</h3>
+                <h1 class="subtittlecardqmsomos">Construtora André</h1>
+                <p class="textcardqmsomos">A nossa empresa idealiza e realiza projetos na área da construção civil, focando em empreendimentos inovadores e rentáveis.
+
+                    Trabalhando sempre com transparência e ética, a Construtora André valoriza o compromisso com cliente, respeitando os prazos e entregando produtos de qualidade e busca permanentemente superar as expectativas em cada novo negócio.</p>
+
+            </div>
+
+        </div>
+
+        <div class="proposito">
+            
+            <div class="imgproposito">
+
+                <img class="imgcardproposito" src="./src/img/c9bd6f3499ffd87096270bab1ae411cd.jpg" alt="" >
+
+            </div>
+            
+            <div class="textproposito">
+
+                <h3 class="tittleproposito">proposito</h3>
+                <h1 class="subtittleproposito">Faça a escolha certa!</h1>
+
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">Missão</button>
+                        <div class="accordion-content">
+                            <p>Viabilizar e realizar empreendimentos imobiliários e obras de Infraestrutura com qualidade, prazo, custo e segurança. Tendo sempre como foco a satisfação absoluta do cliente e no retorno financeiro positivo aos parceiros e investidores.</p>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <button class="accordion-header">Visão</button>
+                        <div class="accordion-content">
+                            <p>Consolidar e fortalecer a empresa no mercado imobiliário Baiano e na indústria nacional da construção civil como empresa referência em qualidade, pontualidade, capacidade de entregar resultados positivos aos parceiros/investidores e na satisfação absoluta dos nossos clientes.</p>
+                        </div>
+                    </div>
+            
+                    <div class="accordion-item">
+                        <button class="accordion-header">valores</button>
+                        <div class="accordion-content">
+                            <p>» Ética e Transparência: Priorizamos e seguimos a filosofia de honestidade e transparência em todos os compromissos pactuados com nossos clientes, parceiros e colaboradores;
+                                » Pessoas:  Valorizamos e encorajamos pessoas comprometidas com espírito de servir e empreendedor;
+                                » Inovação: Incentivamos e valorizamos a busca constante por novas ideias, ações inovadoras e proativas que gerem resultados;
+                                » Qualidade e excelência:  Garantimos a qualidade e excelência nos serviços executados para satisfação absoluta de nossos clientes, parceiros e investidores;
+                                » Sustentabilidade: Agimos e priorizamos trabalhar dentro dos padrões éticos na preservação e conservação do meio ambiente;</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <script>
+                    // document.querySelectorAll(".accordion-header").forEach(button => {
+                    //     button.addEventListener("click", function() {
+                    //         this.classList.toggle("active");
+                    //     });
+                    // });
+
+
+                    document.addEventListener("DOMContentLoaded", function () {
+    let activeContent = null;
+
+    document.querySelectorAll(".accordion-header").forEach(button => {
+        button.addEventListener("click", function () {
+            const content = this.nextElementSibling;
+
+            // Fecha a aba aberta antes de abrir outra
+            if (activeContent && activeContent !== content) {
+                activeContent.style.maxHeight = "0px";
+                activeContent.style.opacity = "0";
+                activeContent.style.transform = "translateY(-10px)";
+                activeContent.previousElementSibling.classList.remove("active");
+                activeContent = null;
+            }
+
+            // Alterna entre abrir e fechar com delay
+            if (content.style.maxHeight === "0px" || !content.style.maxHeight) {
+                content.style.display = "block"; // Garante que está visível
+                setTimeout(() => {
+                    content.style.maxHeight = "200px"; // Ajuste para o tamanho do conteúdo
+                    content.style.opacity = "1";
+                    content.style.transform = "translateY(0px)";
+                }, 500);  // Aqui você pode ajustar o delay (300ms de delay antes de começar a animação)
+
+                this.classList.add("active");
+                activeContent = content;
+            } else { 
+                content.style.maxHeight = "0px";
+                content.style.opacity = "0";
+                content.style.transform = "translateY(-10px)";
+
+                setTimeout(() => {
+                    content.style.display = "none"; // Esconde após a animação
+                }, 500);  // Mesmo delay para o fechamento
+
+                this.classList.remove("active");
+                activeContent = null;
+            }
+        });
+    });
+});
+
+                </script>
+
+            </div>
+
+        </div>
+
+    </div>
         
 
 
