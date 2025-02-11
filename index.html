@@ -28,19 +28,7 @@
             </div>
 
         </div>
-
-        <!-- <div class="logo3">
-
-            <div class="logo2">
-
-            <img class="logo1" src="./src/img/em-construcao.png" alt="">
-
-            </div>
-
-        </div> -->
         
-
-
     </div>
 
     <div class="menu">
@@ -144,69 +132,80 @@
                     </div>
                 </div>
             
-                <script>
-                    // document.querySelectorAll(".accordion-header").forEach(button => {
-                    //     button.addEventListener("click", function() {
-                    //         this.classList.toggle("active");
-                    //     });
-                    // });
-
-
-                    document.addEventListener("DOMContentLoaded", function () {
-    let activeContent = null;
-
-    document.querySelectorAll(".accordion-header").forEach(button => {
-        button.addEventListener("click", function () {
-            const content = this.nextElementSibling;
-
-            // Fecha a aba aberta antes de abrir outra
-            if (activeContent && activeContent !== content) {
-                activeContent.style.maxHeight = "0px";
-                activeContent.style.opacity = "0";
-                activeContent.style.transform = "translateY(-10px)";
-                activeContent.previousElementSibling.classList.remove("active");
-                activeContent = null;
-            }
-
-            // Alterna entre abrir e fechar com delay
-            if (content.style.maxHeight === "0px" || !content.style.maxHeight) {
-                content.style.display = "block"; // Garante que está visível
-                setTimeout(() => {
-                    content.style.maxHeight = "200px"; // Ajuste para o tamanho do conteúdo
-                    content.style.opacity = "1";
-                    content.style.transform = "translateY(0px)";
-                }, 500);  // Aqui você pode ajustar o delay (300ms de delay antes de começar a animação)
-
-                this.classList.add("active");
-                activeContent = content;
-            } else { 
-                content.style.maxHeight = "0px";
-                content.style.opacity = "0";
-                content.style.transform = "translateY(-10px)";
-
-                setTimeout(() => {
-                    content.style.display = "none"; // Esconde após a animação
-                }, 500);  // Mesmo delay para o fechamento
-
-                this.classList.remove("active");
-                activeContent = null;
-            }
-        });
-    });
-});
-
-                </script>
-
+                
             </div>
 
         </div>
 
     </div>
         
+    <div class="cardobras">
 
+        <div class="textObras">
+
+            <h3 class="tittlecardobras">Confira</h3>
+            <h1 class="tittle2cardobras">Nossas obras</h1>
+
+        </div>
+
+        <div class="nossasobras">
+
+
+            <div class="cardimgobras">
+
+                <div class="imgobras">
+                
+                </div>
+                <div class="imgobras">
+    
+                </div>
+                <div class="imgobras">
+    
+                </div>
+                
+    
+
+            </div>
+
+            <div class="cardimgobras">
+
+                <div class="imgobras">
+                
+                </div>
+                <div class="imgobras">
+    
+                </div>
+                <div class="imgobras">
+    
+                </div>
+                
+    
+
+            </div>
+
+            <div class="cardimgobras">
+
+                <div class="imgobras">
+                
+                </div>
+                <div class="imgobras">
+    
+                </div>
+                <div class="imgobras">
+    
+                </div>
+                
+    
+
+            </div>
+
+        </div>
 
     </div>
 
+    </div>
+    
+    <script src="./src/js/acordion.js"></script>
 
 </body>
 </html>
