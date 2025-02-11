@@ -330,7 +330,7 @@ ul a {
 
   .cardQuemsomos{
     background-color: gainsboro;
-    height: 2000px;
+    height: 1700px;
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -343,14 +343,15 @@ ul a {
 
   .subcardquemnosomos{
     /* background-color: gainsboro; */
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-around;
-    margin-top: -220px;
-    border: solid blue 2px;
+    /* justify-content: space-around; */
+    margin-top: -20px;
+    /* border: solid blue 2px; */
+    gap: 160px;
   }
 
   .imgsobrenos{
@@ -361,15 +362,16 @@ ul a {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    
   }
 
   .sobreNos{
     /* background-color: white; */
-    height: 560px;
+    height: 680px;
     width: 400px;
     display: flex;
     /* align-items: center; */
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     font-family: "Gemunu Libre", serif;
     gap: 30px;
@@ -377,14 +379,14 @@ ul a {
   }
 
   .imgcardqmsomos{
-    height: 500px;
+    height: 625px;
     width: 350px;
-    border-radius:20px;
+    border-radius:8px;
   }
 
   .titlecardqmsomos{
     color:rgba(255, 217, 0, 0.842) ;
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .subtittlecardqmsomos{
@@ -393,13 +395,13 @@ ul a {
   }
 
   .textcardqmsomos{
-    font-size: 25px;
+    font-size: 28px;
     color: rgb(90, 89, 89);
   }
 
    .proposito{
     height: 100vh;
-    border:  solid red 2px;
+    /* border:  solid red 2px; */
     width:100vw;
     display: flex;
     justify-content: center;
@@ -408,15 +410,15 @@ ul a {
   } 
 
   .imgcardproposito{
-    height: 500px;
+    height: 600px;
     width: 400px;
-    border-radius:20px;
+    border-radius:8px;
   }
 
 
   .textproposito{
     font-family: "Gemunu Libre", serif;
-    border: solid red 1px;
+    /* border: solid red 1px; */
     height: 700px;
     width: 530px;
     display: flex;
@@ -427,7 +429,8 @@ ul a {
 
   .tittleproposito{
     font-size: 35px;
-    color:rgba(255, 217, 0, 0.842) ;
+    /* color:rgba(255, 217, 0, 0.842) ; */
+    color:rgba(255, 217, 0, 0.842)
     
   }
 
@@ -447,10 +450,33 @@ ul a {
     flex-direction: column;
     margin-top: 15px;
     gap: 30px;
+    /* border: solid blue 2px; */
 }
 
 .accordion-item {
     border-bottom: 1px solid #ddd;
+    /* border: solid black 2px; */
+    
+}
+
+.imgacordion{
+  width: 40px;
+  position: absolute;
+  right: 120px;
+}
+.imgacordion1{
+  width: 40px;
+  position: absolute;
+  right: 120px;
+  /* display: flex; */
+  
+
+}
+.imgacordion2{
+  width: 40px;
+  position: absolute;
+  right: 120px
+  
 }
 
 .accordion-header {
@@ -465,6 +491,10 @@ ul a {
     display: block;
     /* border: solid blue 1px; */
     font-family: "Gemunu Libre", serif;
+    /* display: flex; */
+    /* gap: 350px; */
+    align-items: center;
+    
 }
 
 .accordion-content {
@@ -472,7 +502,7 @@ ul a {
     opacity: 0;
     transform: translateY(-10px);
     padding: 0 15px;
-    font-size: 23px;
+    font-size: 25px;
     background: none;
     font-family: "Gemunu Libre", serif;
     color: rgb(90, 89, 89);
