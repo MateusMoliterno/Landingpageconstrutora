@@ -517,3 +517,68 @@ ul a {
     padding: 15px;
     display: block;
 }
+
+
+.cardobras{
+  width: 100vw;
+  height: 2000px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  background-color: gainsboro;
+}
+
+.textObras{
+  height: 200px;
+  width: 500px;
+  /* border: solid red 2px; */
+  align-items: center;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family:"Gemunu Libre";
+}
+
+.nossasobras{
+  border: solid black 2px;
+  width: 100vw;
+  height: 1000px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 100px;
+  flex-direction: column;
+  gap: 70px;
+
+}
+
+.imgobras{
+  border: solid blue 2px;
+  height: 270px;
+  width: 300px;
+}
+
+.cardimgobras{
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 70px;
+  justify-content: center;
+  /* align-items: center; */
+  
+}
+
+.tittlecardobras{
+
+  font-size: 30px;
+  color:rgba(255, 217, 0, 0.842);
+
+}
+
+.tittle2cardobras{
+  font-size: 70px;
+  color: blue;
+
+}
+  
