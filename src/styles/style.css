@@ -30,7 +30,7 @@ html, body {
     align-items: center;
     justify-content: center;
     /* border: solid red 2px; */
-    font-size: 22px;
+    font-size: 27px;
     /* border: solid violet 2px; */
     
     
@@ -50,7 +50,7 @@ ul{
 
 .cardInicio{
     font-family: "Gemunu Libre", serif;
-    margin-top: -41px;
+    margin-top: -55px;
     /* height: 100vh; */
 }
 
@@ -81,18 +81,23 @@ header{
     /* border: solid 2px white; */
 }
 
+.titlelogo{
+  font-size: 60px;
+}
+
 .contacts{
     width: 8vw;
     height: 8vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* border: solid red 2px; */
     
 }
 
 
 .contacts img {
-    height: 40px;
+    height: 50px;
     transition: transform 0.3s ease, filter 0.3s ease;
     cursor: pointer;
   }
@@ -103,11 +108,12 @@ header{
   }
 
 
-.logoinsta{
-    height: 45px;
-}
+/* .logoinsta{ */
+  /* width: 70px; */
+  /* height: 300px; */
+/* } */
 .logowpp{
-    height: 45px;
+    height: 80px;
 }
 
 .IMGinicio{
@@ -143,12 +149,12 @@ header{
 .cursor {
     content: '';
     display: inline-block;
-    width: 2px;   /* Largura do cursor */
-    height: 30px;  /* Tamanho igual ao do texto */
-    background-color: black; /* Cor do cursor */
+    width: 3px;   /* Largura do cursor */
+    height: 50px;  /* Tamanho igual ao do texto */
+    background-color: gray;
     animation: piscar-cursor 0.8s steps(1) infinite;  /* Animação de piscada */
     position: absolute;
-    margin-left: 2px;
+    margin-left: 0px;
    
 }
 
@@ -168,7 +174,7 @@ header{
     height: 40vh;
     width: 60vw;
     position: absolute;
-    top: 250px;
+    top: 360px;
     left: 215px;
     display: flex;
     flex-direction: column;
@@ -183,9 +189,9 @@ header{
 }
 
 .btnfalecomigo{
-     width: 125px;
-    height: 45px; 
-    font-size: 20px;
+     width: 170px;
+    height: 55px; 
+    font-size: 25px;
     background-color: rgba(0, 0, 255, 0.568);
     color:rgba(255, 217, 0, 0.842);
     border: none;
@@ -193,10 +199,6 @@ header{
     font-family: "Gemunu Libre", serif; 
     box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-  
-  
-
-  
   font-weight: bold;
  
   background: linear-gradient(to right,blue 50%,  rgba(255, 217, 0, 0.918) 50%);
@@ -213,21 +215,21 @@ header{
   }
 
 .titlleinicio{
-    font-size: 35px;
+    font-size: 50px;
     color: rgba(255, 217, 0, 0.842) ;
     /* text-shadow: 50px 20px 60px 80px rgba(0, 0, 0, 0.5); */
     text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
 }
 
 .titlleinicio2{
-    font-size: 70px;
+    font-size: 95px;
     color: blue;
     /* text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.5); */
 }
 
 .titlleinicio3{
     color:rgb(92, 90, 90) ;
-    font-size: 35px;
+    font-size: 45px;
     /* text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5); */
 }
 
@@ -330,88 +332,96 @@ ul a {
 
   .cardQuemsomos{
     background-color: gainsboro;
-    height: 1700px;
+    height: 2300px;
     display: flex;
     /* align-items: center; */
     justify-content: center;
     /* justify-content: space-around; */
-    margin-top: -41px;
+    margin-top: -56px;
     flex-direction: column;
+    /* border: saddlebrown solid 3px; */
     
   }
 
 
   .subcardquemnosomos{
     /* background-color: gainsboro; */
-    height: 90vh;
+    min-height: 80vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
     /* justify-content: space-around; */
-    margin-top: -20px;
+    margin-top: 100px;
     /* border: solid blue 2px; */
     gap: 160px;
   }
 
   .imgsobrenos{
     /* background-color: white; */
-    height: 560px;
-    width: 400px;
+    /* height: 560px; */
+    /* width: 500px; */
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    /* border: pink solid 2px; */
     
   }
 
   .sobreNos{
     /* background-color: white; */
-    height: 680px;
-    width: 400px;
+    /* height: 680px; */
+    width: 410px;
     display: flex;
     /* align-items: center; */
     /* justify-content: center; */
     flex-direction: column;
     font-family: "Gemunu Libre", serif;
     gap: 30px;
+    /* border: salmon solid 3px; */
     
   }
 
   .imgcardqmsomos{
-    height: 625px;
-    width: 350px;
+    height: 750px;
+    width: 400px;
     border-radius:8px;
+
+
   }
 
   .titlecardqmsomos{
     color:rgba(255, 217, 0, 0.842) ;
-    font-size: 35px;
+    font-size: 50px;
   }
 
   .subtittlecardqmsomos{
     color: blue;
-    font-size: 70px;
+    font-size: 90px;
   }
 
   .textcardqmsomos{
-    font-size: 28px;
+    font-size: 36px;
     color: rgb(90, 89, 89);
   }
 
    .proposito{
-    height: 100vh;
+    min-height: 100vh;
     /* border:  solid red 2px; */
     width:100vw;
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
+    /* border: solid orange 2px; */
+    margin-top: 100px;
+    gap: 160px;
   } 
 
   .imgcardproposito{
-    height: 600px;
-    width: 400px;
+    height: 800px;
+    width: 425px;
     border-radius:8px;
   }
 
@@ -428,14 +438,14 @@ ul a {
   }
 
   .tittleproposito{
-    font-size: 35px;
+    font-size: 50px;
     /* color:rgba(255, 217, 0, 0.842) ; */
     color:rgba(255, 217, 0, 0.842)
     
   }
 
   .subtittleproposito{
-    font-size: 70px;
+    font-size: 90px;
     color: blue;
   }
 
@@ -484,7 +494,7 @@ ul a {
     color: blue;
     padding: 15px;
     cursor: pointer;
-    font-size: 35px;
+    font-size: 45px;
     text-align: left;
     border: none;
     width: 40vw;
@@ -502,7 +512,7 @@ ul a {
     opacity: 0;
     transform: translateY(-10px);
     padding: 0 15px;
-    font-size: 25px;
+    font-size: 35px;
     background: none;
     font-family: "Gemunu Libre", serif;
     color: rgb(90, 89, 89);
@@ -527,6 +537,9 @@ ul a {
   /* justify-content: center; */
   flex-direction: column;
   background-color: gainsboro;
+  margin-top: 0px;
+  /* border: solid red 2px; */
+  
 }
 
 .textObras{
@@ -542,43 +555,218 @@ ul a {
 }
 
 .nossasobras{
-  border: solid black 2px;
+  /* border: solid black 2px; */
   width: 100vw;
-  height: 1000px;
+  height: 4000px;
   display: flex;
   /* align-items: center; */
   justify-content: center;
   margin-top: 100px;
-  flex-direction: column;
-  gap: 70px;
+  /* flex-direction: column; */
+  gap: 14px;
 
 }
+.imgobras1{
+  /* border: solid blue 2px; */
+  /* height: 304px; */
+  /* width: 404px; */
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 20px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.imgobras2{
+  /* border: solid blue 2px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* height: 284px; */
+  width: 414px;
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 20px; */
+}
+.imgobras3{
+  /* border: solid blue 2px; */
+  /* height: 620px; */
+  width: 414px;
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 20px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.imgobras4{
+  /* border: solid blue 2px; */
+  /* height: 294px; */
+  width: 414px;
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 20px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.imgobras5{
+  /* border: solid blue 2px; */
+  /* height: 508px; */
+  width: 414px;
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgobras6{
+  /* border: solid blue 2px; */
+  /* height: px; */
+  /* width: 404px; */
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgobras7{
+  /* border: solid blue 2px; */
+  /* height: px; */
+  width: 414px;
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.imgobras8{
+  /* border: solid blue 2px; */
+  /* height: 350px; */
+  width: 414px;
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 20px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+.imgobras9{
+  /* border: solid blue 2px; */
+  /* height: px; */
+  /* width: 404px; */
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .imgobras{
-  border: solid blue 2px;
-  height: 270px;
-  width: 300px;
+  /* border: solid blue 2px; */
+  /* height: 304px; */
+  /* width: 404px; */
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 20px; */
 }
 
 .cardimgobras{
   display: flex;
   /* justify-content: space-around; */
-  gap: 70px;
-  justify-content: center;
-  /* align-items: center; */
-  
+  gap: 30px;
+  /* justify-content: center; */
+  /* align-items: end; */
+  /* border: solid red 2px; */
+  width: 25vw;  
+  height:1420px;
+  overflow: hidden;
+  display: flex;
+  /* justify-content: center; */
+  align-items: top;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.cardimgobras2{
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 30px;
+  /* justify-content: center; */
+  align-items: center;
+  /* border: solid red 2px; */
+  width: 25vw;  
+  height: 1500px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: top;
+}
+.cardimgobras3{
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 30px;
+  /* justify-content: center; */
+  align-items: start;
+  /* border: solid red 2px; */
+  width: 25vw;  
+  height: 1350px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: top;
+  align-items: center;
 }
 
 .tittlecardobras{
 
-  font-size: 30px;
+  font-size: 50px;
   color:rgba(255, 217, 0, 0.842);
 
 }
 
 .tittle2cardobras{
-  font-size: 70px;
+  font-size: 90px;
   color: blue;
 
 }
-  
+
+.imgdasobras{
+  width: 410px;
+  /* height: 300px; */
+}
+
+.imgdasobras1{
+  width: 410px;
+  /* height: 400px; */
+}
+.imgdasobras2{
+  width: 410px;
+  /* height: 400px; */
+}
+.imgdasobras3{
+  width: 410px;
+  /* height: 400px; */
+}
+.imgdasobras4{
+  width: 410px;
+  /* height: 400px; */
+}
+.imgdasobras5{
+  width: 410px;
+  /* height: 400px; */
+}
+.imgdasobras6{
+  width: 410px;
+  /* height: 400px; */
+}
+.imgdasobras7{
+  width: 410px;
+  /* height: 400px; */
+}
+.imgdasobras8{
+  width: 410px;
+  /* height: 400px; */
+}
+.imgdasobras9{
+  width: 410px;
+  /* height: 400px; */
+}
