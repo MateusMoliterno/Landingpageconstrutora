@@ -1,0 +1,204 @@
+.cardQuemsomos{
+    background-color: gainsboro;
+    height: 2300px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* justify-content: space-around; */
+    margin-top: -41px;
+    flex-direction: column;
+    /* border: saddlebrown solid 3px; */
+    
+  }
+
+
+  .subcardquemnosomos{
+    /* background-color: gainsboro; */
+    min-height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    margin-top: -250px;
+    /* border: solid blue 2px; */
+    gap: 160px;
+  }
+
+  .imgsobrenos{
+    /* background-color: white; */
+    /* height: 560px; */
+    /* width: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    /* border: pink solid 2px; */
+    
+  }
+
+  .sobreNos{
+    /* background-color: white; */
+    /* height: 680px; */
+    width: 300px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    font-family: "Gemunu Libre", serif;
+    gap: 30px;
+    /* border: salmon solid 3px; */
+    
+  }
+
+  .imgcardqmsomos{
+    height: 610px;
+    width: 320px;
+    border-radius:8px;
+
+
+  }
+
+  .titlecardqmsomos{
+    color:rgba(255, 217, 0, 0.842) ;
+    font-size: 35px;
+    /* border: solid blue 3px; */
+  }
+
+  .subtittlecardqmsomos{
+    color: blue;
+    font-size: 60px;
+  }
+
+  .textcardqmsomos{
+    font-size: 27px;
+    color: rgb(90, 89, 89);
+  }
+
+   .proposito{
+    min-height: 100vh;
+    /* border:  solid red 2px; */
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* border: solid orange 2px; */
+    margin-top: 130px;
+    gap: 130px;
+  } 
+
+  .imgcardproposito{
+    height: 650px;
+    width: 370px;
+    border-radius:8px;
+    /* border: solid orange 2px; */
+
+  }
+
+
+  .textproposito{
+    font-family: "Gemunu Libre", serif;
+    /* border: solid red 1px; */
+    height: 700px;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    gap: 10px;
+    /* border: solid orange 2px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-top: 150px;
+  }
+
+  .tittleproposito{
+    font-size: 35px;
+    /* color:rgba(255, 217, 0, 0.842) ; */
+    color:rgba(255, 217, 0, 0.842)
+    
+  }
+
+  .subtittleproposito{
+    font-size: 70px;
+    color: blue;
+  }
+
+  .accordion {
+    width: 41vw;
+    /* max-width: 500px; */
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 30px;
+    /* border: solid blue 2px; */
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+    /* border: solid black 2px; */
+    
+}
+
+.imgacordion{
+  width: 35px;
+  position: absolute;
+  right: 120px;
+}
+.imgacordion1{
+  width: 35px;
+  position: absolute;
+  right: 120px;
+  /* display: flex; */
+  
+
+}
+.imgacordion2{
+  width: 35px;
+  position: absolute;
+  right: 120px
+  
+}
+
+.accordion-header {
+    background: none;
+    color: blue;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 35px;
+    text-align: left;
+    border: none;
+    width: 40vw;
+    display: block;
+    /* border: solid blue 1px; */
+    font-family: "Gemunu Libre", serif;
+    /* display: flex; */
+    /* gap: 350px; */
+    align-items: center;
+    
+}
+
+.accordion-content {
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-10px);
+    padding: 0 15px;
+    font-size: 25px;
+    background: none;
+    font-family: "Gemunu Libre", serif;
+    color: rgb(90, 89, 89);
+    overflow: hidden;
+    transition: max-height 0.3s ease-out 0s, /* Delay de 0s para a altura */ opacity 0.3s ease-out 0.5s,   /* Delay de 0.5s para a opacidade */ transform 0.3s ease-out 0.5s;  /* Delay de 0.5s para o movimento de descida */        
+}
+
+.accordion-header.active + .accordion-content {
+    max-height: 200px;  /* Ajuste a altura conforme necessário */
+    opacity: 1;
+    transform: translateY(0px);
+    padding: 15px;
+    display: block;
+}
