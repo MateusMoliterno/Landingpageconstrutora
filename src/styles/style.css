@@ -6,9 +6,16 @@
 
 }
 
+/* html{
+  font-size: 50px;
+  color: red;
+} */
+
 html, body {
     overflow-x: hidden;
+    
 }
+
 
 
 .container{
@@ -30,7 +37,7 @@ html, body {
     align-items: center;
     justify-content: center;
     /* border: solid red 2px; */
-    font-size: 27px;
+    font-size: 20px;
     /* border: solid violet 2px; */
     
     
@@ -50,7 +57,7 @@ ul{
 
 .cardInicio{
     font-family: "Gemunu Libre", serif;
-    margin-top: -55px;
+    margin-top: -42px;
     /* height: 100vh; */
 }
 
@@ -82,7 +89,7 @@ header{
 }
 
 .titlelogo{
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .contacts{
@@ -97,7 +104,7 @@ header{
 
 
 .contacts img {
-    height: 50px;
+    height: 35px;
     transition: transform 0.3s ease, filter 0.3s ease;
     cursor: pointer;
   }
@@ -113,7 +120,7 @@ header{
   /* height: 300px; */
 /* } */
 .logowpp{
-    height: 80px;
+    height: 40px;
 }
 
 .IMGinicio{
@@ -149,8 +156,8 @@ header{
 .cursor {
     content: '';
     display: inline-block;
-    width: 3px;   /* Largura do cursor */
-    height: 50px;  /* Tamanho igual ao do texto */
+    width: 2px;   /* Largura do cursor */
+    height: 40px;  /* Tamanho igual ao do texto */
     background-color: gray;
     animation: piscar-cursor 0.8s steps(1) infinite;  /* Animação de piscada */
     position: absolute;
@@ -189,9 +196,9 @@ header{
 }
 
 .btnfalecomigo{
-     width: 170px;
-    height: 55px; 
-    font-size: 25px;
+     width: 130px;
+    height: 45px; 
+    font-size: 20px;
     background-color: rgba(0, 0, 255, 0.568);
     color:rgba(255, 217, 0, 0.842);
     border: none;
@@ -215,21 +222,21 @@ header{
   }
 
 .titlleinicio{
-    font-size: 50px;
+    font-size: 37px;
     color: rgba(255, 217, 0, 0.842) ;
     /* text-shadow: 50px 20px 60px 80px rgba(0, 0, 0, 0.5); */
     text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
 }
 
 .titlleinicio2{
-    font-size: 95px;
+    font-size: 75px;
     color: blue;
     /* text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.5); */
 }
 
 .titlleinicio3{
     color:rgb(92, 90, 90) ;
-    font-size: 45px;
+    font-size: 30px;
     /* text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5); */
 }
 
@@ -337,7 +344,7 @@ ul a {
     /* align-items: center; */
     justify-content: center;
     /* justify-content: space-around; */
-    margin-top: -56px;
+    margin-top: -41px;
     flex-direction: column;
     /* border: saddlebrown solid 3px; */
     
@@ -352,7 +359,7 @@ ul a {
     align-items: center;
     justify-content: center;
     /* justify-content: space-around; */
-    margin-top: 100px;
+    margin-top: -250px;
     /* border: solid blue 2px; */
     gap: 160px;
   }
@@ -372,7 +379,7 @@ ul a {
   .sobreNos{
     /* background-color: white; */
     /* height: 680px; */
-    width: 410px;
+    width: 300px;
     display: flex;
     /* align-items: center; */
     /* justify-content: center; */
@@ -384,8 +391,8 @@ ul a {
   }
 
   .imgcardqmsomos{
-    height: 750px;
-    width: 400px;
+    height: 610px;
+    width: 320px;
     border-radius:8px;
 
 
@@ -393,16 +400,17 @@ ul a {
 
   .titlecardqmsomos{
     color:rgba(255, 217, 0, 0.842) ;
-    font-size: 50px;
+    font-size: 35px;
+    /* border: solid blue 3px; */
   }
 
   .subtittlecardqmsomos{
     color: blue;
-    font-size: 90px;
+    font-size: 60px;
   }
 
   .textcardqmsomos{
-    font-size: 36px;
+    font-size: 27px;
     color: rgb(90, 89, 89);
   }
 
@@ -415,14 +423,16 @@ ul a {
     /* justify-content: space-around; */
     align-items: center;
     /* border: solid orange 2px; */
-    margin-top: 100px;
-    gap: 160px;
+    margin-top: 130px;
+    gap: 130px;
   } 
 
   .imgcardproposito{
-    height: 800px;
-    width: 425px;
+    height: 650px;
+    width: 370px;
     border-radius:8px;
+    /* border: solid orange 2px; */
+
   }
 
 
@@ -435,17 +445,21 @@ ul a {
     flex-direction: column;
     /* justify-content: space-around; */
     gap: 10px;
+    /* border: solid orange 2px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-top: 150px;
   }
 
   .tittleproposito{
-    font-size: 50px;
+    font-size: 35px;
     /* color:rgba(255, 217, 0, 0.842) ; */
     color:rgba(255, 217, 0, 0.842)
     
   }
 
   .subtittleproposito{
-    font-size: 90px;
+    font-size: 70px;
     color: blue;
   }
 
@@ -470,12 +484,12 @@ ul a {
 }
 
 .imgacordion{
-  width: 40px;
+  width: 35px;
   position: absolute;
   right: 120px;
 }
 .imgacordion1{
-  width: 40px;
+  width: 35px;
   position: absolute;
   right: 120px;
   /* display: flex; */
@@ -483,7 +497,7 @@ ul a {
 
 }
 .imgacordion2{
-  width: 40px;
+  width: 35px;
   position: absolute;
   right: 120px
   
@@ -494,7 +508,7 @@ ul a {
     color: blue;
     padding: 15px;
     cursor: pointer;
-    font-size: 45px;
+    font-size: 35px;
     text-align: left;
     border: none;
     width: 40vw;
@@ -512,7 +526,7 @@ ul a {
     opacity: 0;
     transform: translateY(-10px);
     padding: 0 15px;
-    font-size: 35px;
+    font-size: 25px;
     background: none;
     font-family: "Gemunu Libre", serif;
     color: rgb(90, 89, 89);
@@ -531,14 +545,15 @@ ul a {
 
 .cardobras{
   width: 100vw;
-  height: 2000px;
+  height: 1600px;
   display: flex;
   align-items: center;
   /* justify-content: center; */
   flex-direction: column;
   background-color: gainsboro;
-  margin-top: 0px;
+  margin-top: -320px;
   /* border: solid red 2px; */
+  overflow: hidden;
   
 }
 
@@ -563,7 +578,7 @@ ul a {
   justify-content: center;
   margin-top: 100px;
   /* flex-direction: column; */
-  gap: 14px;
+  gap: 15px;
 
 }
 .imgobras1{
@@ -670,7 +685,7 @@ ul a {
 .cardimgobras{
   display: flex;
   /* justify-content: space-around; */
-  gap: 30px;
+  gap: 16px;
   /* justify-content: center; */
   /* align-items: end; */
   /* border: solid red 2px; */
@@ -687,7 +702,7 @@ ul a {
 .cardimgobras2{
   display: flex;
   /* justify-content: space-around; */
-  gap: 30px;
+  gap: 16px;
   /* justify-content: center; */
   align-items: center;
   /* border: solid red 2px; */
@@ -702,7 +717,7 @@ ul a {
 .cardimgobras3{
   display: flex;
   /* justify-content: space-around; */
-  gap: 30px;
+  gap: 16px;
   /* justify-content: center; */
   align-items: start;
   /* border: solid red 2px; */
@@ -718,55 +733,50 @@ ul a {
 
 .tittlecardobras{
 
-  font-size: 50px;
+  font-size: 35px;
   color:rgba(255, 217, 0, 0.842);
 
 }
 
 .tittle2cardobras{
-  font-size: 90px;
+  font-size: 75px;
   color: blue;
 
 }
 
-.imgdasobras{
-  width: 410px;
-  /* height: 300px; */
-}
-
 .imgdasobras1{
-  width: 410px;
+  width: 350px;
   /* height: 400px; */
 }
 .imgdasobras2{
-  width: 410px;
+  width: 350px;
   /* height: 400px; */
 }
 .imgdasobras3{
-  width: 410px;
+  width: 350px;
   /* height: 400px; */
 }
 .imgdasobras4{
-  width: 410px;
+  width: 350px;
   /* height: 400px; */
 }
 .imgdasobras5{
-  width: 410px;
+  width: 350px;
   /* height: 400px; */
 }
 .imgdasobras6{
-  width: 410px;
+  width: 350px;
   /* height: 400px; */
 }
 .imgdasobras7{
-  width: 410px;
+  width: 350px;
   /* height: 400px; */
 }
 .imgdasobras8{
-  width: 410px;
+  width: 350px;
   /* height: 400px; */
 }
 .imgdasobras9{
-  width: 410px;
+  width: 350px;
   /* height: 400px; */
 }
