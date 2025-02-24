@@ -11,8 +11,9 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&family=Indie+Flower&display=swap');
     </style>
-    <title>Document</title>
+    <title>Construtora</title>
 </head>
+
 <body>
 
     <div class="container">
@@ -34,31 +35,36 @@
         
     </div>
 
+    
+
     <div class="menu">
 
+        <button class="hamburger">☰</button> <!-- Botão Hambúrguer -->
+        
         <nav>
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Empresa</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Serviços</a></li>
-                <li><a href="">Clientes</a></li>
+            <ul class="menu-list">
+                <li><a href="#cardInicio">Início</a></li>
+                <li><a href="#cardQuemsomos">Empresa</a></li>
+                <li><a href="#cardobras">Obras</a></li>
+                <li><a href="#clientes">Clientes</a></li>
             </ul>
         </nav>
+    </div>
 
-    </div>  
-    
     <div class="contacts">
 
         <img class="logoinsta" src="./src/img/instagram (5).png" alt="">
         <img class="logowpp" src="./src/img/whatsapp (8).png" alt="">
 
     </div>
+    
+    
+    
 
     
     </header>
     
-    <div class="cardInicio">
+    <div id="cardInicio" class="cardInicio">
 
         <div class="IMGinicio"><img class="img1" src="./src/img/Img-Inicio.jfif" alt=""></div>
 
@@ -73,13 +79,13 @@
 
 
 
-    <div class="cardQuemsomos">
+    <div id="cardQuemsomos" class="cardQuemsomos">
 
         <div class="subcardquemnosomos">
 
             <div class="imgsobrenos">
 
-                <img class="imgcardqmsomos" src="./src/img/6af7ced476844d14c56b2c7b579eca6d.jpg" alt="">
+                <img class="imgcardqmsomos" src=".//src/img/construction-worker-animate (1).svg" alt="">
 
             </div>
 
@@ -98,7 +104,7 @@
             
             <div class="imgproposito">
 
-                <img class="imgcardproposito" src="./src/img/c9bd6f3499ffd87096270bab1ae411cd.jpg" alt="" >
+                <img class="imgcardproposito" src="./src/img/building-permit-animate.svg" alt="" >
 
             </div>
             
@@ -142,7 +148,7 @@
 
     </div>
         
-    <div class="cardobras">
+    <div id="cardobras" class="cardobras">
 
         <div class="textObras">
 
@@ -217,80 +223,73 @@
 
     </div>
 
-    <!-- <div class="clientes">
+    <div id="clientes" class="clientes">
 
         <div class="textclientes">
             <h3 class="tittleclientes1">Nossos Clientes</h3>
-            <h1 class="tittleclientes2">Confira a satisfação da nossa clientela</h1>
-        </div> -->
+            <h1 class="tittleclientes2">Clientes sempre satisfeitos</h1>
+            <p class="tittleclientes3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nisi provident esse ad, voluptate maiores repellendus adipisci debitis necessitatibus corrupti? Labore nobis quaerat ut nihil impedit totam optio voluptate dolorem.</p>
+        </div>
 
         <div class="midia-clientes">
-
             <div class="slider">
-
+                <!-- radio buttons -->
+                <input type="radio" name="radio-btn" id="radio1" checked>
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+        
+                <!-- Container das imagens -->
                 <div class="sliders">
-                    <!-- radio buttons -->
-                    <input type="radio" name="radio-btn" id="radio1">
-                    <input type="radio" name="radio-btn" id="radio2">
-                    <input type="radio" name="radio-btn" id="radio3">
-                    <input type="radio" name="radio-btn" id="radio4">
-
-
-                    <!-- img -->
-
-                    <div class="slid-first">
-
-                        <img src="./src/img/6af7ced476844d14c56b2c7b579eca6d.jpg" alt="imagem1">
-                        
-                    </div>
-
                     <div class="slide">
-
-                        <img src="./src/img/c9bd6f3499ffd87096270bab1ae411cd.jpg" alt="imagem2">
-                        
+                        <img src="./src/img/img_0136.png" alt="imagem1">
                     </div>
-
                     <div class="slide">
-
-                        <img src="./src/img/120458f0-2b8e-411c-b8be-440a23ebe7f7.jpg" alt="imagem3">
-                        
+                        <img src="./src/img/img_0136.png" alt="imagem2">
                     </div>
-
                     <div class="slide">
-
-                        <img src="./src/img/6af7ced476844d14c56b2c7b579eca6d.jpg" alt="imagem4">
-                        
+                        <img src="./src/img/img_0136.png" alt="imagem3">
                     </div>
-
-                    <div class="navigation-auto">
-
-                        <div class="auto-btn1"></div>
-                        <div class="auto-btn2"></div>
-                        <div class="auto-btn3"></div>
-                        <div class="auto-btn4"></div>
-    
+                    <div class="slide">
+                        <img src="./src/img/img_0136.png" alt="imagem4">
                     </div>
-
                 </div>
-
+        
+                <!-- Botões de navegação manual -->
                 <div class="manual-navigation">
                     <label for="radio1" class="manual-btn"></label>
                     <label for="radio2" class="manual-btn"></label>
                     <label for="radio3" class="manual-btn"></label>
                     <label for="radio4" class="manual-btn"></label>
                 </div>
-                
             </div>
-        
+        </div>
+
+
+
+        <div class="credits">
+
+            <h3 class="tittlecredits1">Creditos de icons e artes ilustradas</h3>
+
+            <p class="textcredits">
+
+                <a href="https://storyset.com/people">People illustrations by Storyset</a>
+                <a href="https://storyset.com/work">Work illustrations by Storyset</a>
+                <a href="https://www.flaticon.com/br/icones-gratis/alcool" title="álcool ícones">ícones criados por wanicon - Flaticon</a>
+
+            </p>
+
         </div>
         
 
-    <!-- </div> -->
+    </div>
 
     </div>
     
     <script src="./src/js/acordion.js"></script>
     <script src="./src/js/carousel.js"></script>
+    <script src="./src/js/manunavigation.js"></script>
+    <script src="./src/js/hamburger.js"></script>
 
 </body>
 </html>

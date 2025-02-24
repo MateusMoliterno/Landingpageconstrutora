@@ -1,11 +1,12 @@
 .cardQuemsomos{
-    background-color: gainsboro;
-    height: 2300px;
+  background-color: rgb(13, 13, 172);
+    height: 1900px;
     display: flex;
     /* align-items: center; */
     justify-content: center;
+    align-items: center;
     /* justify-content: space-around; */
-    margin-top: -41px;
+    margin:0;
     flex-direction: column;
     /* border: saddlebrown solid 3px; */
     
@@ -20,9 +21,9 @@
     align-items: center;
     justify-content: center;
     /* justify-content: space-around; */
-    margin-top: -250px;
+    margin-top: 100px;
     /* border: solid blue 2px; */
-    gap: 160px;
+    gap: 120px;
   }
 
   .imgsobrenos{
@@ -52,27 +53,27 @@
   }
 
   .imgcardqmsomos{
-    height: 610px;
-    width: 320px;
-    border-radius:8px;
+    /* height: 610px; */
+    width: 470px;
+    /* border-radius:8px; */
 
 
   }
 
   .titlecardqmsomos{
-    color:rgba(255, 217, 0, 0.842) ;
+    color: gold;
     font-size: 35px;
     /* border: solid blue 3px; */
   }
 
   .subtittlecardqmsomos{
-    color: blue;
+    color: white;
     font-size: 60px;
   }
 
   .textcardqmsomos{
     font-size: 27px;
-    color: rgb(90, 89, 89);
+    color: white;
   }
 
    .proposito{
@@ -89,9 +90,9 @@
   } 
 
   .imgcardproposito{
-    height: 650px;
-    width: 370px;
-    border-radius:8px;
+    /* height: 650px; */
+    width: 470px;
+    /* border-radius:8px; */
     /* border: solid orange 2px; */
 
   }
@@ -115,13 +116,13 @@
   .tittleproposito{
     font-size: 35px;
     /* color:rgba(255, 217, 0, 0.842) ; */
-    color:rgba(255, 217, 0, 0.842)
+   color: gold;
     
   }
 
   .subtittleproposito{
     font-size: 70px;
-    color: blue;
+    color: white;
   }
 
   .accordion {
@@ -146,39 +147,36 @@
 
 .imgacordion{
   width: 35px;
-  position: absolute;
-  right: 120px;
+  /* position: absolute; */
+  /* right: 120px; */
 }
 .imgacordion1{
   width: 35px;
-  position: absolute;
-  right: 120px;
+  /* position: absolute; */
+  /* right: 120px; */
   /* display: flex; */
   
 
 }
 .imgacordion2{
   width: 35px;
-  position: absolute;
-  right: 120px
+  /* position: absolute; */
+  /* right: 120px */
   
 }
 
 .accordion-header {
     background: none;
-    color: blue;
+    color: gold;
     padding: 15px;
     cursor: pointer;
     font-size: 35px;
-    text-align: left;
+    text-align: right;
     border: none;
     width: 40vw;
-    display: block;
-    /* border: solid blue 1px; */
     font-family: "Gemunu Libre", serif;
-    /* display: flex; */
-    /* gap: 350px; */
-    align-items: center;
+    display: flex;
+    gap: 250px;
     
 }
 
@@ -190,7 +188,7 @@
     font-size: 25px;
     background: none;
     font-family: "Gemunu Libre", serif;
-    color: rgb(90, 89, 89);
+    color: white;
     overflow: hidden;
     transition: max-height 0.3s ease-out 0s, /* Delay de 0s para a altura */ opacity 0.3s ease-out 0.5s,   /* Delay de 0.5s para a opacidade */ transform 0.3s ease-out 0.5s;  /* Delay de 0.5s para o movimento de descida */        
 }
@@ -201,4 +199,147 @@
     transform: translateY(0px);
     padding: 15px;
     display: block;
+}
+
+
+@media (min-width:800px) and (max-width: 1100px) {
+
+  .subcardquemnosomos{
+    gap: 50px;
+    margin-top: 150px;
+  }
+
+  .imgcardqmsomos{
+    width: 380px;
+  }
+  .titlecardqmsomos{
+    font-size: 30px;
+  }
+
+  .subtittlecardqmsomos{
+    font-size: 50px;
+  }
+
+  .textcardqmsomos{
+    font-size: 25px;
+  }
+
+  .proposito{
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .imgcardproposito{
+    width: 380px;
+  }
+
+  .tittleproposito{
+    font-size: 30px;
+  }
+
+  .subtittleproposito{
+    font-size: 50px;
+  }
+
+  .accordion-header{
+    font-size: 30px;
+  }
+
+  .accordion-content{
+    font-size: 20px;
+  }
+  .accordion-header{
+    gap: 200px;
+  }
+
+  .cardQuemsomos{
+    height: 1500px;
+  }
+}
+
+@media (min-width:400px) and (max-width: 799px) {
+
+  .cardQuemsomos{
+
+    height: 2200px;
+    
+  }
+  .subcardquemnosomos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+  }
+
+  .imgcardqmsomos{
+    width: 300px;
+  }
+
+  .titlecardqmsomos{
+    font-size: 30px;
+  }
+
+  .subtittlecardqmsomos{
+    font-size: 50px;
+  }
+
+  .textcardqmsomos{
+    font-size: 25px;
+  }
+  .sobreNos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .proposito{
+    display: flex;
+    flex-direction: column;
+    margin-top: 520px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imgcardproposito{
+    width: 300px;
+    margin-top: -240px;
+  }
+
+  .tittleproposito{
+    font-size: 30px;
+  }
+
+  .subtittleproposito{
+    font-size: 50px;
+  }
+
+  .accordion-header{font-size: 30px;
+    /* border: solid black 3px; */
+    width: 500px; ;
+  }
+  .textproposito{
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  .accordion-content{
+    font-size: 16px;
+    /* border: solid black 3px; */
+    width: 500px;
+  }
+  .accordion-item{
+    /* border: solid black 3px; */
+    width: 500px;
+  }
+
+  .accordion{
+    width: 380px;
+  }
 }

@@ -3,13 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     /* background-color: gainsboro; */
+    font-family: "Gemunu Libre", serif; 
 
 }
-
-/* html{
-  font-size: 50px;
-  color: red;
-} */
 
 html, body {
     overflow-x: hidden;
@@ -59,6 +55,8 @@ ul{
     font-family: "Gemunu Libre", serif;
     margin-top: -42px;
     /* height: 100vh; */
+    /* border: solid black 3px; */
+    
 }
 
 header{
@@ -67,9 +65,14 @@ header{
     justify-content: center;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(0, 0, 255, 0.911);
+    background-color: rgba(13, 13, 139, 0.863);
     height: 10vh;
     font-family: "Gemunu Libre", serif;
+    width: 100vw;
+    position: fixed;
+    z-index: 1000;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -126,7 +129,6 @@ header{
 .IMGinicio{
     display: flex;
     margin-top: 0px;
-    height: 100vh;
     width: 100vw;
     align-items: center;
     justify-content: center;
@@ -178,14 +180,16 @@ header{
 }
 
 .text{
-    height: 40vh;
+    height: 50vh;
     width: 60vw;
     position: absolute;
-    top: 360px;
+    top: 240px;
     left: 215px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    /* border: solid black 3px; */
+    gap: 7px;
     
 
 }
@@ -200,7 +204,7 @@ header{
     height: 45px; 
     font-size: 20px;
     background-color: rgba(0, 0, 255, 0.568);
-    color:rgba(255, 217, 0, 0.842);
+    color: gold;
     border: none;
     cursor: pointer;
     font-family: "Gemunu Libre", serif; 
@@ -208,7 +212,7 @@ header{
     border-radius: 5px;
   font-weight: bold;
  
-  background: linear-gradient(to right,blue 50%,  rgba(255, 217, 0, 0.918) 50%);
+  background: linear-gradient(to right,rgb(13, 13, 172) 50%,  gold 50%);
   background-size: 200% 100%;
   background-position: left;
   border: none;
@@ -223,14 +227,14 @@ header{
 
 .titlleinicio{
     font-size: 37px;
-    color: rgba(255, 217, 0, 0.842) ;
+    color: gold;
     /* text-shadow: 50px 20px 60px 80px rgba(0, 0, 0, 0.5); */
     text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
 }
 
 .titlleinicio2{
     font-size: 75px;
-    color: blue;
+    color: rgb(13, 13, 172);;
     /* text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.5); */
 }
 
@@ -257,16 +261,16 @@ ul a {
     height: 4px;
     /* background-color: black; */
     transition: width 0.3s ease-in-out;
-    background-color: rgba(255, 217, 0, 0.842);
+    background-color:gold;
   }
 
   ul a:hover {
-    color:  rgba(255, 217, 0, 0.842);; /* Cor do texto ao passar o mouse */
+    color:  gold; /* Cor do texto ao passar o mouse */
   }
   
   ul a:hover::after {
     width: 100%;
-    color: rgba(255, 217, 0, 0.842);
+    color:gold;
   }
 
   
@@ -289,7 +293,7 @@ ul a {
     align-items: center;
     justify-content: center;
     /* border: solid white 1px; */
-    background-color: blue;
+    /* background-color: rgb(13, 13, 172); */
     border-radius: 5px;
   }
   .logo3{
@@ -323,15 +327,168 @@ ul a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
     border-radius: 5px;
     font-size: 20px;
   }
 
   .start {
-    color: rgba(255, 217, 0, 0.842);
+    color: gold;
   }
   
   .end {
     color: white; /* Cor da segunda parte */
+  }
+
+  .menu {
+    position: relative;
+}
+
+/* Esconde o botão em telas grandes */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Exibe o menu normalmente */
+.menu-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 15px;
+}
+
+  
+
+
+  @media (min-width:800px) and (max-width: 1100px) {
+
+    .titlelogo{
+      font-size: 30px;
+    }
+
+    .menu{
+      font-size: 16px;
+    }
+
+    .contacts img{
+      height: 28px;
+      width: 27px;
+    }
+
+    .text{
+      margin-top: -50px;
+      margin-left: -125px;
+      /* border: solid black 3px; */
+      width: 80vw;
+      
+    }
+
+    .titlleinicio{
+      font-size: 30px;
+    }
+    .titlleinicio2{
+      font-size: 55px;
+    }
+    .titlleinicio3{
+      font-size: 30px;
+    }
+
+    .btnfalecomigo{
+      font-size: 18px;
+      height: 40px;
+      width: 120px;
+    }
+
+    .cursor{
+      height: 30px;
+    }
+    
+  }
+
+
+  @media (min-width:400px) and (max-width: 799px) {
+
+    /* .menu{
+      display: none;
+    } */
+    .titlelogo{
+      font-size: 30px;
+    }
+    .contacts img{
+      height: 28px;
+      width: 27px;
+    }
+    .contacts{
+      gap: 5px;
+      margin-left: -300px;
+    }
+
+    .menu-list {
+      display: none;
+      flex-direction: column;
+      background: white;
+      position: absolute;
+      top: 40px;
+      right: 0;
+      width: 150px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .menu-list.open {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(13, 13, 139, 0.863);
+      height: 220px;
+      width: 115px;
+      gap: 27px;
+      border-radius: 5px;
+      margin-top: 30px;
+      margin-right:73px;
+      backdrop-filter: blur(30px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      font-size: 16px;
+  }
+
+  .hamburger {
+      display: block;
+      margin-left: 30px;
+      color:gold;
+      margin-left: 25px;
+
+  }
+
+  .text{
+    margin-top: -100px;
+    margin-left: -190px;
+    /* border: solid black 2px; */
+    width: 370px;
+  }
+
+  .titlleinicio{
+    font-size: 28px;
+  }
+  .titlleinicio2{
+    font-size: 50px;
+  }
+  .titlleinicio3{
+    font-size: 25px;
+  }
+
+  .btnfalecomigo{
+    font-size: 18px;
+    height: 40px;
+    width: 120px;
+  }
+
+  .cursor{
+    height: 30px;
+  }
+
+
+  
+
   }

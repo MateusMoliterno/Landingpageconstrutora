@@ -1,0 +1,195 @@
+.clientes{
+    height: 1500px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+    background-color: rgb(13, 13, 172);
+    z-index: 1000;
+    /* border: solid black 3px; */
+}
+
+.textclientes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    overflow: hidden;
+    margin-top: 30px;
+    /* border: solid black 3px; */
+    width: 1000px;
+}
+
+.tittleclientes1{
+    font-size: 37px;
+    color: white;
+    
+}
+.tittleclientes2{
+    font-size: 55px;
+    color: gold;
+}
+
+.slider {
+    width: 100vw;
+    height: 620px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    /* border: solid blue 3px; */
+    background-color: rgb(13, 13, 172);
+}
+
+.sliders {
+    display: flex;
+    width: 400%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    /* border: solid black 3px; */
+
+}
+
+.slide {
+    width: 400px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid red 3px; */
+}
+
+.slide img {
+    width: 280px;
+    /* height: px; */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Movimento do slider */
+#radio1:checked ~ .sliders {
+    transform: translateX(0%);
+}
+#radio2:checked ~ .sliders {
+    transform: translateX(-25%);
+}
+#radio3:checked ~ .sliders {
+    transform: translateX(-50%);
+}
+#radio4:checked ~ .sliders {
+    transform: translateX(-75%);
+}
+
+/* Estilização da navegação manual */
+.manual-navigation {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid white;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+.manual-btn:hover {
+    background-color: white;
+}
+
+/* Esconde os radio buttons */
+.slider input[type="radio"] {
+    display: none;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid white;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+/* Adiciona cor quando o botão está ativo */
+#radio1:checked ~ .manual-navigation label[for="radio1"],
+#radio2:checked ~ .manual-navigation label[for="radio2"],
+#radio3:checked ~ .manual-navigation label[for="radio3"],
+#radio4:checked ~ .manual-navigation label[for="radio4"] {
+    background-color: white;
+}
+
+
+.midiaclientes{
+    margin-top: 100px;
+}
+
+
+.tittleclientes3{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.tittlecredits1{
+   color: white;
+   font-size: 16px;
+}
+.credits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: solid black 3px; */
+    /* margin-right: 950px; */
+    margin-top: 120px;
+    
+}
+
+.textcredits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+@media (min-width: 800px) and (max-width:1100px){
+    .tittleclientes1{
+        font-size: 30px;
+    }
+    .tittleclientes2{
+        font-size: 50px;
+    }
+    .tittleclientes3{
+        font-size: 25px;
+        width: 700px;
+    }
+}
+@media (min-width: 400px) and (max-width:799px){
+    .tittleclientes1{
+        font-size: 28px;
+    }
+    .tittleclientes2{
+        font-size: 38px;
+    }
+    .tittleclientes3{
+        font-size: 20px;
+        width: 380px;
+    }
+}

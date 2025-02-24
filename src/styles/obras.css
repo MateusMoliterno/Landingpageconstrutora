@@ -1,12 +1,12 @@
 .cardobras{
     width: 100vw;
-    height: 1600px;
+    height: 1700px;
     display: flex;
     align-items: center;
     /* justify-content: center; */
     flex-direction: column;
-    background-color: gainsboro;
-    margin-top: -320px;
+    background-color: #ffffff;
+    margin-top: 100px;
     /* border: solid red 2px; */
     overflow: hidden;
     
@@ -188,14 +188,14 @@
   
   .tittlecardobras{
   
-    font-size: 35px;
-    color:rgba(255, 217, 0, 0.842);
+    font-size: 40px;
+    color:rgb(92, 90, 90) ;
   
   }
   
   .tittle2cardobras{
     font-size: 75px;
-    color: blue;
+    color: rgb(13, 13, 172);
   
   }
   
@@ -234,4 +234,118 @@
   .imgdasobras9{
     width: 350px;
     /* height: 400px; */
+  }
+
+  @media (min-width:800px) and (max-width: 1100px) {
+
+    .cardobras{
+      height: 500px;
+
+    }
+
+    .textObras{
+      margin-top: -5px;
+    }
+
+    .tittlecardobras{
+      font-size: 30px;
+    }
+    .tittle2cardobras{
+      font-size: 50px;
+    }
+
+    .imgdasobras1{
+      width: 200px;
+    }
+    .imgdasobras2{
+      width: 200px;
+    }
+    .imgdasobras3{
+      width: 200px;
+    }
+    .imgdasobras4{
+      width: 200px;
+    }
+    .imgdasobras5{
+      width: 200px;
+    }
+    .imgdasobras6{
+      width: 200px;
+    }
+    .imgdasobras7{
+      width: 200px;
+    }
+    .imgdasobras8{
+      width: 200px;
+    }
+    .imgdasobras9{
+      width: 200px;
+    }
+
+    .nossasobras{
+      gap: 14px;
+    }
+
+    
+
+  }
+
+  @media (min-width:400px) and (max-width: 799px){
+
+    .tittlecardobras{
+      font-size: 30px;
+    }
+    .tittle2cardobras{
+      font-size: 50px;
+    }
+
+    .imgdasobras1{
+      width: 120px;
+    }
+    .imgdasobras2{
+      width: 120px;
+    }
+    .imgdasobras3{
+      width: 120px;
+    }
+    .imgdasobras4{
+      width: 120px;
+    }
+    .imgdasobras5{
+      width: 120px;
+    }
+    .imgdasobras6{
+      width: 120px;
+    }
+    .imgdasobras7{
+      width: 120px;
+    }
+    .imgdasobras8{
+      width: 120px;
+    }
+    .imgdasobras9{
+      width: 120px;
+    }
+
+    .nossasobras{
+      gap: 14px;
+    }
+
+    .cardimgobras{
+      /* border: solid black 3px; */
+      width: 120px;
+    }
+    .cardimgobras2{
+      /* border: solid black 3px; */
+      width: 120px;
+    }
+    .cardimgobras3{
+      /* border: solid black 3px; */
+      width: 120px;
+    }
+
+    .cardobras{
+      height: 800px;
+    }
+
   }
