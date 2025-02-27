@@ -18,7 +18,7 @@ html, body {
 }
 
 .menu{
-  width: 23vw;
+  width: 10vw;
   height: 9vh;
   display: flex;
   align-items: center;
@@ -79,12 +79,14 @@ header{
   display: flex;
   align-items: center;
   gap: 10px;  
+  z-index: 1;
 }
 
 .contacts img{
   height: 35px;
   transition: transform 0.3s ease, filter 0.3s ease;
   cursor: pointer;
+  z-index: 9999;
 }
   
 .contacts img:hover{
@@ -400,7 +402,7 @@ ul a {
       gap: 27px;
       border-radius: 5px;
       margin-top: 30px;
-      margin-right:-6px;
+      margin-right:-32px;
       backdrop-filter: blur(30px);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
       font-size: 16px;
