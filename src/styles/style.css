@@ -154,11 +154,13 @@ header{
   display: flex;
   flex-direction: column;
   gap: 7px;
+  margin-top: 110px;
 }
 
 .img1{
   width: 100vw;
   height: 90vh;
+  margin-top: 23px;
 }
 
 .btnfalecomigo{
@@ -336,7 +338,7 @@ ul a {
     }
 
     .text{
-      margin-top: -50px;
+      margin-top: 150px;
       margin-left: -125px;
       /* border: solid black 3px; */
       width: 80vw;
@@ -446,6 +448,10 @@ ul a {
 
   .logo{
     width: 205px;
+  }
+
+  .img1{
+    margin-top: -10px;
   }
 
   }
