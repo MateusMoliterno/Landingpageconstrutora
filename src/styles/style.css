@@ -66,7 +66,7 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color: rgba(13, 13, 139, 0.863);
-    height: 10vh;
+    height: 12vh;
     font-family: "Gemunu Libre", serif;
     width: 100vw;
     position: fixed;
@@ -80,19 +80,19 @@ header{
 .logo{
 
     border-radius: 5px;
-    width: 19vw;
+    width: 21vw;
     height: 8vh;
     align-items: center;
     display: flex;
     justify-content: center;
     justify-content: space-around;
     font-family: "Gemunu Libre", serif;
-    color: rgba(255, 217, 0, 0.842);
+    color: gold;
     /* border: solid 2px white; */
 }
 
 .titlelogo{
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .contacts{
@@ -100,8 +100,9 @@ header{
     height: 8vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* border: solid red 2px; */
+    gap: 10px;
     
 }
 
@@ -128,12 +129,13 @@ header{
 
 .IMGinicio{
     display: flex;
-    margin-top: 0px;
+    margin-top: 117px;
     width: 100vw;
     align-items: center;
     justify-content: center;
     opacity: 0.4; /* 0 é totalmente transparente, 1 é totalmente opaco */
     overflow: hidden;
+    /* border: solid black 3px; */
 }
 
 
@@ -350,6 +352,10 @@ ul a {
     background: none;
     border: none;
     cursor: pointer;
+    /* border: solid black 3px; */
+    /* width: 200px; */
+    margin-right:70px;
+    /* display: flex; */
 }
 
 /* Exibe o menu normalmente */
@@ -358,6 +364,7 @@ ul a {
     list-style: none;
     padding: 0;
     gap: 15px;
+    z-index: 1000;
 }
 
   
@@ -422,8 +429,10 @@ ul a {
       width: 27px;
     }
     .contacts{
-      gap: 5px;
+      /* gap: 5px; */
       margin-left: -300px;
+      /* border: solid black 2px; */
+      width: 68px;
     }
 
     .menu-list {
@@ -447,17 +456,18 @@ ul a {
       gap: 27px;
       border-radius: 5px;
       margin-top: 30px;
-      margin-right:73px;
+      margin-right:121px;
       backdrop-filter: blur(30px);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
       font-size: 16px;
+      z-index: 9999;
   }
 
   .hamburger {
       display: block;
-      margin-left: 30px;
+      margin-left: 0px;
       color:gold;
-      margin-left: 25px;
+      margin-left:0px;
 
   }
 
@@ -486,6 +496,10 @@ ul a {
 
   .cursor{
     height: 30px;
+  }
+
+  .logo{
+    width: 205px;
   }
 
 
