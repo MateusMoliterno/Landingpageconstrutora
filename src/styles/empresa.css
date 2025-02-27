@@ -1,6 +1,6 @@
 .cardQuemsomos{
   background-color: rgb(13, 13, 172);
-    height: 1900px;
+    height: 1600px;
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -85,7 +85,7 @@
     /* justify-content: space-around; */
     align-items: center;
     /* border: solid orange 2px; */
-    margin-top: 130px;
+    margin-top: 50px;
     gap: 130px;
   } 
 
@@ -269,8 +269,9 @@
   }
   .subcardquemnosomos{
     display: flex;
-    flex-direction: column;
-    margin-top: 300px;
+    flex-direction: column-reverse;
+    margin-top: -100px;
+
   }
 
   .imgcardqmsomos{
@@ -298,8 +299,8 @@
 
   .proposito{
     display: flex;
-    flex-direction: column;
-    margin-top: 520px;
+    flex-direction: column-reverse;
+    margin-top: 70px;
     align-items: center;
     justify-content: center;
   }
