@@ -1,13 +1,13 @@
 .clientes{
-    height: 1500px;
+    height: 1250px;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 80px;
+    gap: 30px;
     background-color: rgb(13, 13, 172);
-    z-index: 1000;
+    z-index:1;
     /* border: solid black 3px; */
 }
 
@@ -16,9 +16,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 8px;
     overflow: hidden;
-    margin-top: 30px;
+    margin-top: 0px;
     /* border: solid black 3px; */
     width: 1000px;
 }
