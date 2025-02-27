@@ -293,10 +293,6 @@ ul a {
     color: white; /* Cor da segunda parte */
   }
 
-  .menu {
-    position: relative;
-}
-
 /* Esconde o botão em telas grandes */
 .hamburger {
     display: none;
@@ -306,7 +302,7 @@ ul a {
     cursor: pointer;
     /* border: solid black 3px; */
     /* width: 200px; */
-    margin-right:70px;
+    /* margin-right:70px; */
     /* display: flex; */
 }
 
@@ -378,7 +374,7 @@ ul a {
     width: 27px;
   }
   .contacts{
-    margin-left: -155px;
+    /* margin-left: -155px; */
     width: 68px;
   }
 
@@ -412,11 +408,16 @@ ul a {
   }
 
   .hamburger {
-    display: block;
-    margin-left: 0px;
+    display: flex;
     color:gold;
-    margin-left:145px;
+    margin-left:0px;
 
+  }
+
+  .menu{
+    align-items: center;
+    justify-content: center;
+    order: 3;
   }
   
 
@@ -448,6 +449,7 @@ ul a {
 
   .logo{
     width: 205px;
+    
   }
 
   .img1{
