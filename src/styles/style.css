@@ -157,6 +157,10 @@ header{
   margin-top: 110px;
 }
 
+.text a{
+  width: 124px;
+}
+
 .img1{
   width: 100vw;
   height: 90vh;
@@ -399,8 +403,8 @@ ul a {
       width: 115px;
       gap: 27px;
       border-radius: 5px;
-      margin-top: 33px;
-      margin-right:-30px;
+      margin-top: 40px;
+      margin-right:2px;
       backdrop-filter: blur(30px);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
       font-size: 16px;
