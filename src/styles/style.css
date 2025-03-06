@@ -39,7 +39,7 @@ ul{
 
 .cardInicio{
   font-family: "Gemunu Libre", serif;
-  margin-top: -42px;  
+  margin-top: -55px;
 }
 
 header{
@@ -48,7 +48,7 @@ header{
   justify-content: space-around;
   align-items: center;
   background-color: rgba(13, 13, 139, 0.863);
-  height: 12vh;
+  height: 13vh;
   font-family: "Gemunu Libre", serif;
   width: 100vw;
   position: fixed;
@@ -381,6 +381,8 @@ ul a {
     /* margin-left: -155px; */
     width: 68px;
   }
+
+  
 
    
     .menu-list {
